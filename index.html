@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+
+    <link rel="shortcut icon" href="./assets/images/galleryicon.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ============= darkMode SECTION START ==================== -->
+
+    <!-- ===== cursor START ======= -->
+    <div class="cursor"></div>
+    <div class="cursorDot"></div>
+    <!-- ===== cursor END ======= -->
+
+    <section id="wrapper">
+        <div class="container">
+            <h4 class="title"><span>Light</span> Mode</h4>
+            <button class="darkModeBtn">
+                <span class="sunIcon"><i class="bi bi-brightness-high-fill"></i></span>
+                <span class="moonIcon"><i class="bi bi-moon-fill"></i></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ============= darkMode SECTION END ==================== -->
+
+
+    <!-- ============= photoGallery SECTION START ==================== -->
+
+    <section id="photoGallery">
+
+        <div class="galleryImg">
+
+            <div class="imgContainer">
+                <span class="arrowCross"><i class="bi bi-x-lg"></i></span>
+                <span class="arrowLeft"><i class="bi bi-arrow-left"></i></span>
+                <span class="arrowRight"><i class="bi bi-arrow-right"></i></span>
+                <img class="imgPreviewer" src="./assets/images/galleryImg1.jpg" alt="404">
+
+            </div>
+
+        </div>
+
+        <div class="gallery">
+            <div class="wrapper">
+                <img src="./assets/images/galleryImg1.jpg" alt="">
+                <img src="./assets/images/galleryImg2.jpg" alt="">
+                <img src="./assets/images/galleryImg3.jpg" alt="">
+                <img src="./assets/images/galleryImg4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============= photoGallery SECTION END ==================== -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
