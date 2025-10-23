@@ -43,6 +43,4 @@ imagePreviewer.addEventListener('click', (e) => {
     if (!(previewWrapper.contains(e.target))) {
         imagePreviewer.classList.remove('active')
     }
-
 })
-
