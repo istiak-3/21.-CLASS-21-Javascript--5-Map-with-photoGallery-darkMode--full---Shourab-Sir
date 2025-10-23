@@ -8,7 +8,7 @@ let cross = document.querySelector(".cross")
 
 allImages.map(function (el, index) {
 
-    el.addEventListener('click', (e) => {
+    el.addEventListener('click', () => {
         imagePreviewer.classList.add('active')
         previewImage.src = el.src
 
@@ -38,9 +38,10 @@ cross.addEventListener('click', () => {
     imagePreviewer.classList.remove('active')
 })
 
-imagePreviewer.addEventListener('click', (e) => {
+imagePreviewer.addEventListener('click', () => {
 
     if (!(previewWrapper.contains(e.target))) {
         imagePreviewer.classList.remove('active')
     }
+
 })
